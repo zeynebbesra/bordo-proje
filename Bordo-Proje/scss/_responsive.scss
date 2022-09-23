@@ -1,0 +1,85 @@
+@media screen and (max-width:1000px){
+        
+    //Hero Section
+    .hero_section{
+        .hero_container{
+            .content{
+                padding-left: 0;
+                width: 100%;
+                .hero_text{
+                    width: 65%;
+                }
+            }
+        }  
+    }
+    
+    //Destination Section
+    .destination_section{
+        display: flex;
+        flex-direction: column;
+    }
+
+    // Discover Section
+    .discover_section{
+        .row_cards{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+    }
+
+    //Stories Section
+    .stories{
+        .stories_block{
+            display: flex;
+            flex-direction: column;
+            .stories_left{
+                .stories_card{
+                    .big_story_body{
+                        width: 560px;
+                    }
+                }
+            }
+
+            .stories_right{
+                .stories_column{
+                    width: 600px;
+                }
+
+            }
+        }
+    }
+
+    //Blog Section
+
+    .blog_article{
+
+        //Article Hero Section
+        .article_hero_section{
+            .hero_header{
+                gap: 250px;
+            }
+        }
+        
+        //Callout Section
+        .callout_section{
+            display: flex;
+            flex-direction: column;
+            .callout_copywriting{
+                padding-top: 20px;
+            }
+        }
+
+        //Highlights Section
+        .highlights_section{
+            .highlights_row{
+                display: flex;
+                flex-direction: column;
+            }
+        }
+
+    }
+}
+
+
+

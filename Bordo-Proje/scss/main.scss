@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=BIZ+UDPMincho&family=Changa+One&family=Poppins:wght@100;200;300;400&family=Roboto:wght@100;300;400;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=BIZ+UDPMincho&family=Changa+One&family=Poppins:wght@100;200;300;400&family=Roboto:wght@100;300;400;500&display=swap');
+@import url("https://blogfonts.com/css/aWQ9MjAwODY0JnN1Yj04NjQmYz1iJnR0Zj1ibGFja3NpZ25hdHVyZXBlcnNvbmFsdXNlb25seXJlZ3VsYXItZG95ajEub3RmJm49YmxhY2stc2lnbmF0dXJlLXBlcnNvbmFsLXVzZS1vbmx5/Black Signature PERSONAL USE ONLY.otf");
+@import './colors';
+@import './fontstyle';
+@import './btn';
+@import './navbar';
+@import './section';
+@import './footer';
+@import './responsive';
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+    outline: none;
+    box-sizing: border-box;
+}
+
+body{
+    overflow-x: hidden;
+}
+
+a{
+    text-decoration: none;
+}
+
+header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px;
+}

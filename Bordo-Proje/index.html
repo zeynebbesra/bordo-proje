@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="scss/bootstrap.min.css">
+    <link rel="stylesheet" href="scss/main.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.1.2/css/fontawesome.min.css" integrity="sha384-X8QTME3FCg1DLb58++lPvsjbQoCT9bp3MsUU3grbIny/3ZwUJkRNO8NPW6zqzuW9" crossorigin="anonymous">
+    
+    <title>Blog</title>
+    
+</head>
+<body>
+
+    <!-- navbar-->
+    <header id="navigation">
+        <div class="row_navbar">
+            <div class="column_logo">
+                <img src="img/Vector.svg"><br>
+                <img src="img/Vector_1.svg">
+            </div>
+            <div class="column_menu">
+                <ul>
+                    <li><a class="para" href="index.html">Home</a></li>
+                    <li><a class="para" href="index_story.html">Story</a></li>
+                    <li><a class="para" href="#">Gallery</a></li>
+                    <li><a class="para" href="#">Contact Us</a></li>
+                    <img src="icon/Seperator.svg">
+                    <a href="#">
+                        <img src="icon/search.svg">
+                    </a>
+                    <a href="#">
+                        <img src="icon/user.svg">
+                    </a>
+                </ul>
+            </div>
+            <div class="burger">
+                <div class="line1"></div>
+                <div class="line2"></div>
+                <div class="line3"></div>
+            </div>
+        </div>
+    </header>
+
+    <!--hero section-->
+
+    <section class="hero_section">
+        <div class="hero_container">
+            <div class="content">        
+                <div class="hero_text">
+                    <h1 class="title"><span class="title">Let’s talk</span> about your next trip!</h1>
+                    <p class="para">Share your favorite travel destination and we will feature it in our next blog!</p>    
+                </div>
+                <div class="row_actions">
+                    <a href="#" class="btn">Share your story</a>      
+                    <div class="row_watchhighlights">
+                        <a href="#">
+                            <img src="icon/play.svg">
+                        </a>
+                        <p class="para">Watch highlights</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- destination section -->
+
+    <section class="destination_section">
+        <div class="destination_container">
+            <img src="img/Featured_Image.svg">
+        </div>
+        <div class="blurb">
+            <div class="description">
+                <h3 class="subtext">Featured Destination</h3>
+                <h2 class="title">Our swiss adventure blog</h2>
+                <p class="para">Visiting the swiss alps? Want to know the requirements on travelling to Switzerland during the pandemic? Our blog might help!</p>
+            </div>
+            <div class="row_destination">
+                <a href="#">
+                    <img src="icon/play_2.svg">
+                </a>
+                <p class="para">Watch Now</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- discover section -->
+
+    <section class="discover_section">
+        <header>
+            <h3 class="subtext">Join our adventures</h3>
+            <h2 class="title">Discover the world with us</h2>
+        </header>
+        <div class="row_cards">
+            <div class="frame">
+                <div class="discover_card">
+                    <img src="img/Iceland_card_image.svg">
+                    <div class="card_title">
+                        <h4 class="title">Iceland</h4>
+                        <a href="#" class="para">Discover</a>
+                    </div>
+                </div>
+                <div class="discover_card">
+                    <img src="img/Italy_card_image.svg">
+                    <div class="card_title">
+                        <h4 class="title">Italy</h4>
+                        <a href="#" class="para">Discover</a>
+                    </div>
+                </div>
+            </div>
+            <div class="frame_2">
+                <div class="discover_card">
+                    <img src="img/Dubai_card_image.svg">
+                    <div class="card_title">
+                        <h4 class="title">Dubai</h4>
+                        <a href="#" class="para">Discover</a>
+                    </div>
+                </div>
+                <div class="discover_card">
+                    <img src="img/Patagonia_Card_Image.svg">
+                    <div class="card_title">
+                        <h4 class="title">Patagonia</h4>
+                        <a href="#" class="para">Discover</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- travels section -->
+    <section class="travels_section">
+        <div class="travels_form">
+            <header>
+                <h3 class="subtext">Let’s build a community</h3>
+                <h2 class="title">Join our next destination</h2>
+            </header>
+            <div class="form">
+                <div class="form_text">
+                    <h4 class="title">Share your travels</h4>
+                    <p class="para">Suggest a new travel destination that you want to see and we will feature it in our blog.</p>
+                </div>
+                <div class="form_fields">
+                    <form action="/action_page.php">
+            
+                        <input class="form-control" type="text" placeholder="Destination name" aria-label="default input example">
+                        <select class="form-select" aria-label="Default select example">
+                            <option selected>Country of Destination</option>
+                            <option value="1">One</option>
+                            <option value="2">Two</option>
+                            <option value="2">Three</option>
+                        </select>
+                        
+                        <input class="form-control" type="text" placeholder="Your name" aria-label="default input example">
+                        <select class="form-select" aria-label="Default select example">
+                            <option selected>Shooting category</option>
+                            <option value="1">One</option>
+                            <option value="2">Two</option>
+                            <option value="2">Three</option>
+                        </select>
+                    
+                        <textarea class="form-control" placeholder="Describe what kind of photos you want to focus on" id="floatingTextarea2" style="max-height: 102px"></textarea>
+                        <a href="#" class="btn">Submit</a>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- stories section -->
+    <section class="stories">
+        <header>
+            <h3 class="subtext">catch up to our posts</h3>
+            <h2 class="title">Recent story entries</h2>
+        </header>
+        <div class="stories_block">
+            <div class="stories_left">
+                <div class="stories_card">
+                    <img src="img/Big_Story_Image.svg">
+                    <div class="big_story_body">
+                        <div class="big_story_items">
+                            <div class="big_story_text">
+                                <h4 class="title">Zermatt, Switzerland</h4>
+                                <p class="para">Marvel on the beauty of the iconic Matterhorn. Find the best places to stay that has the best views of this peak...</p>
+                            </div>
+                            <a href="#">
+                                <img src="icon/Play_Button.svg">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="stories_right">
+                <div class="stories_column">
+                    <div class="story_card">
+                        <img src="img/tuscany.svg">
+                        <div class="story_text">
+                            <h4 class="title">Tuscany, Italy</h4>
+                            <p class="para">The amazing Tuscany is home to famous Renaissance art and architecture and a vast scenic landscape. <a href="#" class="para">view full blog...</a></p>
+                        </div>
+                    </div>
+                    <div class="story_card">
+                        <img src="img/kyoto.svg">
+                        <div class="story_text">
+                            <h4 class="title">Kyoto, Japan</h4>
+                            <p class="para">Kyoto is well known for its temples, gardens, Shinto shrines and wooden houses. It’s time to visit tokyo. <a href="#" class="para">view full blog...</a></p>
+                        </div>
+                    </div>
+                    <div class="story_card">
+                        <img src="img/lofoten.svg">
+                        <div class="story_text">
+                            <h4 class="title">Lofoten Islands, Norway</h4>
+                            <p class="para">Featuring razor-sharp peaks housing the arctic landscape. This astonishing island is perfect for your next postcard. <a href="#" class="para">view full blog...</a></p>
+                        </div> 
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- footer -->
+
+    <footer id="info">
+        <p class="footer_font">© 2022, Talking Travel. All Rights Reserved.</p>
+        <div class="column_menu_2">
+            <ul>
+                <li><a class="footer_font" href="#">Home</a></li>
+                <li><a class="footer_font" href="#">Story</a></li>
+                <li><a class="footer_font" href="#">Gallery</a></li>
+                <li><a class="footer_font" href="#">Contact Us</a></li>
+            </ul>
+        </div>
+    </footer>
+
+</body>
+</html>

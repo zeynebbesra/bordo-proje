@@ -1,0 +1,35 @@
+
+#info{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 32px 120px;
+    font-size: 14px;
+    line-height: 16px;
+    text-align: center;
+    .column_menu_2{
+        ul{
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            padding: 0px;
+            gap: 18px;
+            list-style: none;
+        }
+    }
+}
+
+@media screen and (max-width:1000px){
+    #info{
+        gap: 60px;
+        
+        //display: flex;
+        //justify-content: space-between;
+        /*.column_menu_2{
+            ul{
+                //gap: 20px;
+            }
+        }*/
+    }
+}

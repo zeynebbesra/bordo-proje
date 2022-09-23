@@ -1,0 +1,76 @@
+@import './colors';
+.title{
+    color: $black-suede;
+    font-family: 'Changa One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 39px;
+    line-height: 36px;
+}
+
+.title_2{
+    font-family: 'Black Signature PERSONAL USE ONLY';
+    font-style: italic;
+    font-weight: 400;
+    font-size: 70px;
+    line-height: 92px;
+    text-align: center;
+    color:$white;
+}
+
+.subtext{
+    font-style: normal;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 21px;
+    color: $purple-honeycreeper;
+}
+
+.para{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 33px;
+    color: $black-suede;
+}
+
+.para_2{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: $black-suede;
+}
+
+.para_3{
+    font-style: italic;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 22px;
+    color: $trolley-grey;
+}
+
+.author_title{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: $vintage-velvet;
+}
+
+.author_para{
+    font-style: italic;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    color: $chateau-de-chillon;
+}
+
+.footer_font{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    color: $skyline;
+}
